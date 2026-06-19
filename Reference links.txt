@@ -1,0 +1,11 @@
+Prompt engg.
+https://www.promptingguide.ai/
+
+Foundation Models
+https://arena.ai/
+
+Streamlit
+https://streamlit.io/
+
+Open Source Models
+https://huggingface.co/
