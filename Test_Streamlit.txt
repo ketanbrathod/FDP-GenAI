@@ -1,0 +1,31 @@
+import streamlit as st
+st.title("This is my frist app")
+st.header("Food App")
+st.subheader("For local use only")
+st.text_input("Ask me anything")
+st.text_area("Mention your comments")
+
+st.sidebar.title("My Settings")
+
+st.slider("Enter rate of interest",5,20)
+
+st.selectbox("Choose your language",["English","Hindi"])
+st.multiselect("Choose your menu",["Roti","Sabji","Rice","Dal"])
+
+st.radio("Choose your Gender",["Male","Female"])
+
+st.file_uploader("Upload your files here",type="pdf")
+
+st.success("Transaction successfull")
+st.error("Transaction failed")
+st.warning("This is a warning message")
+st.info("Do not copy this text")
+
+st.write(""" 
+sdgdsfg
+dgsdgsdg
+         gsdggf
+
+""")
+
+st.toast("Profile saved succesfully",icon=":material/thumb_up:")
